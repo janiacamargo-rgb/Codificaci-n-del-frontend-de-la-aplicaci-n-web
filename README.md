@@ -1,4 +1,8 @@
-# React + Vite
+# Codificaci-n-del-frontend-de-la-aplicaci-n-web
+
+Este es un repositorio para trabajar.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
