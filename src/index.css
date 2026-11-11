@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-corn: #F5C842;
+  --color-corn-light: #FDF3C0;
+  --color-masa: #FAF3E0;
+  --color-bark: #3D2B1F;
+  --color-bark-mid: #6B4226;
+  --color-clay: #C46B2D;
+  --color-clay-light: #F0D5B0;
+  --color-leaf: #4A7C59;
+  --color-leaf-light: #D4EAD7;
+  --color-smoke: #8C7B6E;
+  --color-red-warn: #C0392B;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #FAF3E0;
+  color: #3D2B1F;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C46B2D40; border-radius: 2px; }
+
+input, select, textarea {
+  font-family: var(--font-body);
+}
