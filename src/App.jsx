@@ -45,7 +45,9 @@ const initProducts = [
   { id: 34, name: 'Jabón Foca (1 kg)', unit: 'pza', stock: 30, minStock: 5, price: 15 },
   { id: 35, name: 'Azúcar morena (1 kg)', unit: 'pza', stock: 17, minStock: 5, price: 35 },
   { id: 36, name: 'Sabritas Original (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
-  { id: 36, name: 'Sabritas Adobadas (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 }
+  { id: 36, name: 'Sabritas Adobadas (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 36, name: 'Sabritas Receta Crujiente (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 }
+  
   
   
 ]
