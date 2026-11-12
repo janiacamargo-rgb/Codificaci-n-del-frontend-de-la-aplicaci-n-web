@@ -42,11 +42,13 @@ const initProducts = [
   { id: 32, name: 'Salsa (500 ml)', unit: 'pza', stock: 10, minStock: 5, price: 70 },
   { id: 33, name: 'Tortillas de Harina (1 kg)', unit: 'pza', stock: 15, minStock: 5, price: 35 },
   { id: 34, name: 'Tortillas de Harina (500 g)', unit: 'pza', stock: 20, minStock: 5, price: 20 },
-  { id: 34, name: 'Jabón Foca (1 kg)', unit: 'pza', stock: 30, minStock: 5, price: 15 },
-  { id: 35, name: 'Azúcar morena (1 kg)', unit: 'pza', stock: 17, minStock: 5, price: 35 },
-  { id: 36, name: 'Sabritas Original (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
-  { id: 36, name: 'Sabritas Adobadas (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
-  { id: 36, name: 'Sabritas Receta Crujiente (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 }
+  { id: 35, name: 'Jabón Foca (1 kg)', unit: 'pza', stock: 30, minStock: 5, price: 15 },
+  { id: 36, name: 'Azúcar morena (1 kg)', unit: 'pza', stock: 17, minStock: 5, price: 35 },
+  { id: 37, name: 'Sabritas Original (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
+  { id: 38, name: 'Sabritas Adobadas (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 39, name: 'Sabritas Receta Crujiente (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 40, name: 'Sabritas Crema y Especias (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  
   
   
   
