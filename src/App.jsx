@@ -48,10 +48,36 @@ const initProducts = [
   { id: 38, name: 'Sabritas Adobadas (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
   { id: 39, name: 'Sabritas Receta Crujiente (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
   { id: 40, name: 'Sabritas Crema y Especias (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
-  
-  
-  
-  
+  { id: 41, name: 'Sabritas Limón (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
+  { id: 42, name: 'Sabritas Jalapeño (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 43, name: 'Sabritas Flamin Hot (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
+  { id: 44, name: 'Sabritas Queso (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 45, name: 'Sabritas Habanero (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
+  { id: 46, name: 'Sabritas Xtra Flamin Hot (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 47, name: 'Sabritas Limón y Sal (160 g)', unit: 'pza', stock: 20, minStock: 5, price: 22 },
+  { id: 48, name: 'Sabritas Piquín (160 g)', unit: 'pza', stock: 25, minStock: 5, price: 22 },
+  { id: 49, name: 'Coca-Cola Original (355 ml)', unit: 'pza', stock: 48, minStock: 12, price: 15 },
+  { id: 50, name: 'Coca-Cola Original (1.25 L)', unit: 'pza', stock: 30, minStock: 6, price: 28 },
+  { id: 51, name: 'Coca-Cola Original (1.75 L)', unit: 'pza', stock: 24, minStock: 6, price: 35 },
+  { id: 52, name: 'Coca-Cola Original (2.5 L)', unit: 'pza', stock: 24, minStock: 6, price: 48 },
+  { id: 53, name: 'Coca-Cola Sin Azúcar (355 ml)', unit: 'pza', stock: 30, minStock: 6, price: 15 },
+  { id: 54, name: 'Coca-Cola Sin Azúcar (600 ml)', unit: 'pza', stock: 36, minStock: 12, price: 20 },
+  { id: 55, name: 'Coca-Cola Sin Azúcar (1.5 L)', unit: 'pza', stock: 20, minStock: 5, price: 35 },
+  { id: 56, name: 'Coca-Cola Light (600 ml)', unit: 'pza', stock: 24, minStock: 6, price: 20 },
+  { id: 57, name: 'Sprite (600 ml)', unit: 'pza', stock: 36, minStock: 12, price: 18 },
+  { id: 58, name: 'Sprite (2 L)', unit: 'pza', stock: 24, minStock: 6, price: 38 },
+  { id: 59, name: 'Fanta Naranja (600 ml)', unit: 'pza', stock: 36, minStock: 12, price: 18 },
+  { id: 60, name: 'Fanta Naranja (2 L)', unit: 'pza', stock: 24, minStock: 6, price: 38 },
+  { id: 61, name: 'Sidral Mundet (600 ml)', unit: 'pza', stock: 30, minStock: 6, price: 18 },
+  { id: 62, name: 'Sidral Mundet (2 L)', unit: 'pza', stock: 24, minStock: 6, price: 38 },
+  { id: 63, name: 'Fresca Toronja (600 ml)', unit: 'pza', stock: 30, minStock: 6, price: 18 },
+  { id: 64, name: 'Fresca Toronja (2 L)', unit: 'pza', stock: 24, minStock: 6, price: 38 },
+  { id: 65, name: 'Del Valle Durazno (1 L)', unit: 'pza', stock: 20, minStock: 5, price: 25 },
+  { id: 66, name: 'Del Valle Mango (1 L)', unit: 'pza', stock: 20, minStock: 5, price: 25 },
+  { id: 67, name: 'Powerade Moras (600 ml)', unit: 'pza', stock: 24, minStock: 6, price: 22 },
+  { id: 68, name: 'Powerade Frutas (600 ml)', unit: 'pza', stock: 24, minStock: 6, price: 22 },
+  { id: 69, name: 'Agua Ciel (600 ml)', unit: 'pza', stock: 48, minStock: 12, price: 12 },
+  { id: 70, name: 'Agua Ciel (1.5 L)', unit: 'pza', stock: 30, minStock: 6, price: 18 },
 ]
 
 const initCustomers = [
